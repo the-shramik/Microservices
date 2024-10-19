@@ -1,0 +1,11 @@
+spring:
+ application:
+  name: EurekaServerAppPrac02
+ 
+server:
+  port: 8761    # If we give port number as 8761 all available services/microservices/rest api's are automatically registered with eureka server
+
+eureka:
+  client:
+     register-with-eureka: false  # To avoid application iteself register to the eureka server 
+

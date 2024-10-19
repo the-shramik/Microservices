@@ -1,0 +1,6 @@
+spring:
+ application:
+   name: AdminServerAppPrac02
+   
+server:
+   port: 7070
